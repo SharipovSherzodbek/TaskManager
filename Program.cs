@@ -49,7 +49,7 @@ class Task
     }
     private void AddTask()
     {
-        if (taskCount < 10)
+        if (taskCount < 50)
         {
             Console.WriteLine($"Enter task N{taskCount +1} name:");
             string taskName = Console.ReadLine();
